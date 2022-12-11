@@ -1,9 +1,0 @@
-﻿type, Properties/@id, Properties/amenity, Properties/name, Geometry/type, Geometry/coordinates/0, Geometry/coordinates/1, Id, Properties/addr:city, Properties/addr:postcode, Properties/addr:street, Properties/name:en
-Feature, Node/1381606894, Hospital, Адриалаб, Point, 21.4346369, 41.986937, Node/1381606894, NA, NA, NA, NA
-Feature, Node/1747627317, Hospital, NA, Point, 21.4331367, 41.986065, Node/1747627317, NA, NA, NA, NA
-Feature, Node/4125379517, Hospital, Центар за ментално здравје, Point, 21.4128098, 42.0009982, Node/4125379517, Cкoпje, 1000, Булевар Партизански Одреди, Center for mental health
-Feature, Node/4125379518, Hospital, ПЗУ „Д-р Горица“, Point, 21.4130411, 42.0010726, Node/4125379518, Cкoпje, 1000, Булевар Партизански Одреди, "PZU ""D-r Gorica"""
-Feature, Node/4138200603, Hospital, Неуромедика, Point, 21.4145316, 42.0005964, Node/4138200603, NA, NA, NA, Neuromedika
-Feature, Node/4776265422, Hospital, ЈЗУ ЗДРАВСТВЕН ДОМ, Point, 21.4407164, 42.0035328, Node/4776265422, NA, NA, NA, NA
-Feature, Node/5130474890, Hospital, Здравствен дом „Железничар“, Point, 21.4271939, 41.9933702, Node/5130474890, NA, NA, NA, Železničar Health Centre
-Feature, Node/7027084885, Hospital, Стоматолошка Ординација, Point, 21.4235554, 41.9919437, Node/7027084885, NA, NA, NA, Dentist
