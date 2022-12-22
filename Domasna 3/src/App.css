@@ -1,0 +1,154 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+  font-family: 'Josefin Sans', sans-serif;
+  color: #db7308;
+
+}
+
+.Basicmap{
+width: 100%;
+}
+
+#map{
+  display: flex;
+  position: relative;
+  height: 550px;
+}
+
+ .leaflet-container{
+  display: flex;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 40px;
+  position: relative;
+
+}  
+
+.popup{
+  padding: 0;
+  font-weight: bold;
+ 
+}
+.popup p{
+  margin: 4px 0;
+  padding: 0;
+  text-align: center;
+
+}
+.popup h4{
+  padding: 0;
+  font-size: 15px;
+}
+#btn{
+  
+  margin-left: 5px;
+  text-align: center;
+}
+#tooltip{
+  width: 50px;
+}
+.enmk{
+  border: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+.enmk:hover{
+  cursor: pointer;
+  color:black;
+  transition: .3s;
+}
+
+.App{
+  height: 1000px;
+  background: #e7dfd8;
+}
+
+.main{
+  margin-top: 50px;
+}
+
+.navbar{
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul{  
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.navbar ul li{
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 150px;
+  font-size: 150%;
+}
+.navbar ul li a:hover{
+  color:black;
+  transition: .3s;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+}
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.column{
+  display: flex;
+  flex: 50%;
+  height: 600px;
+  align-items: center;
+  text-align: center;
+  line-height: 50px;
+  margin: 25px;
+}
+
+.kolona{
+  display: flex;
+  flex: 50%;
+  height: 600px;
+  align-items: center;
+  text-align: center;
+  line-height: 50px;
+}
+ 
+.sidebar{
+ margin: 150px auto;
+  width: 400px;
+}
+
+.kolona img{
+  scale: 65%;
+  max-width: 100%;
+  height: auto;
+}
+
+.kolona .mainText{
+  margin: 0 auto;
+width:550px;
+
+}
+
+.kolona h1{
+  font-size: 50px;
+  text-align: start;
+  margin-bottom: 20px;
+  
+}
+.kolona p{
+    font-size: 30px;
+    text-align: start;
+    line-height: 30px;
+}

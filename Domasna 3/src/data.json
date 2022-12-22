@@ -1,0 +1,147 @@
+{
+    "type": "FeatureCollection",
+    "generator": "overpass-ide",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+    "timestamp": "2022-11-12T18:48:56Z",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1381606894",
+          "amenity": "hospital",
+          "name": "Адриалаб"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.4346369,
+            41.986937
+          ]
+        },
+        "id": "node/1381606894"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1747627317",
+          "amenity": "hospital"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.4331367,
+            41.986065
+          ]
+        },
+        "id": "node/1747627317"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4125379517",
+          "addr:city": "Cкoпje",
+          "addr:postcode": "1000",
+          "addr:street": "Булевар Партизански Одреди",
+          "amenity": "hospital",
+          "name": "Центар за ментално здравје",
+          "name:en": "Center for mental health",
+          "operator": "Министерство за здравство"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.4128098,
+            42.0009982
+          ]
+        },
+        "id": "node/4125379517"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4125379518",
+          "addr:city": "Cкoпje",
+          "addr:postcode": "1000",
+          "addr:street": "Булевар Партизански Одреди",
+          "amenity": "hospital",
+          "name": "ПЗУ „Д-р Горица“",
+          "name:en": "PZU \"D-r Gorica\""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.4130411,
+            42.0010726
+          ]
+        },
+        "id": "node/4125379518"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4138200603",
+          "amenity": "hospital",
+          "name": "Неуромедика",
+          "name:en": "Neuromedika"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.4145316,
+            42.0005964
+          ]
+        },
+        "id": "node/4138200603"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4776265422",
+          "amenity": "hospital",
+          "name": "ЈЗУ ЗДРАВСТВЕН ДОМ"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.4407164,
+            42.0035328
+          ]
+        },
+        "id": "node/4776265422"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5130474890",
+          "amenity": "hospital",
+          "name": "Здравствен дом „Железничар“",
+          "name:en": "Železničar Health Centre"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.4271939,
+            41.9933702
+          ]
+        },
+        "id": "node/5130474890"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/7027084885",
+          "amenity": "hospital",
+          "name": "Стоматолошка Ординација",
+          "name:en": "Dentist"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.4235554,
+            41.9919437
+          ]
+        },
+        "id": "node/7027084885"
+      }
+    ]
+  }

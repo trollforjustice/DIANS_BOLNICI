@@ -1,0 +1,409 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2022-12-10T07:35:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/446285567",
+        "amenity": "hospital",
+        "name": "Систина"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.391876,
+          41.9988883
+        ]
+      },
+      "id": "node/446285567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/479803481",
+        "amenity": "hospital",
+        "name": "Eye Center VIZIA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3825263,
+          42.006422
+        ]
+      },
+      "id": "node/479803481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/552740011",
+        "amenity": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4252136,
+          42.0374713
+        ]
+      },
+      "id": "node/552740011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1092272137",
+        "amenity": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.338885,
+          42.0080827
+        ]
+      },
+      "id": "node/1092272137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1092272145",
+        "amenity": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3381661,
+          42.007708
+        ]
+      },
+      "id": "node/1092272145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1092272150",
+        "amenity": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3394643,
+          42.0087603
+        ]
+      },
+      "id": "node/1092272150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1092300445",
+        "amenity": "hospital",
+        "is_in": "Volkovo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3467492,
+          42.0481616
+        ]
+      },
+      "id": "node/1092300445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1381604857",
+        "amenity": "hospital",
+        "name": "Болница за зависности"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.442001,
+          41.9703449
+        ]
+      },
+      "id": "node/1381604857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1381606894",
+        "amenity": "hospital",
+        "name": "Адриалаб"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4346369,
+          41.986937
+        ]
+      },
+      "id": "node/1381606894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1747627317",
+        "amenity": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4331367,
+          41.986065
+        ]
+      },
+      "id": "node/1747627317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1850511011",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Манолеви"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4501059,
+          42.0601589
+        ]
+      },
+      "id": "node/1850511011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4125379517",
+        "addr:city": "Cкoпje",
+        "addr:postcode": "1000",
+        "addr:street": "Булевар Партизански Одреди",
+        "amenity": "hospital",
+        "name": "Центар за ментално здравје",
+        "name:en": "Center for mental health",
+        "operator": "Министерство за здравство"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4128098,
+          42.0009982
+        ]
+      },
+      "id": "node/4125379517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4125379518",
+        "addr:city": "Cкoпje",
+        "addr:postcode": "1000",
+        "addr:street": "Булевар Партизански Одреди",
+        "amenity": "hospital",
+        "name": "ПЗУ „Д-р Горица“",
+        "name:en": "PZU \"D-r Gorica\""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4130411,
+          42.0010726
+        ]
+      },
+      "id": "node/4125379518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4138200603",
+        "amenity": "hospital",
+        "name": "Неуромедика",
+        "name:en": "Neuromedika"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4145316,
+          42.0005964
+        ]
+      },
+      "id": "node/4138200603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4281387289",
+        "addr:street": "alija avdovikj 3/2-1",
+        "amenity": "hospital",
+        "internet_access": "wlan",
+        "name": "Medical Point",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "phone": "+38970911013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5118538,
+          42.0160266
+        ]
+      },
+      "id": "node/4281387289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4512189989",
+        "addr:housenumber": "10",
+        "addr:postcode": "1000",
+        "addr:street": "Skupi22",
+        "amenity": "hospital",
+        "email": "medikacentar@yahoo.com",
+        "internet_access": "wlan",
+        "name": "Медика Центар",
+        "name:en": "Medica Centar",
+        "name:mk": "Медика Центар",
+        "opening_hours": "24/7",
+        "phone": "+38970206097"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3825697,
+          42.0179859
+        ]
+      },
+      "id": "node/4512189989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4776265422",
+        "amenity": "hospital",
+        "name": "ЈЗУ ЗДРАВСТВЕН ДОМ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4407164,
+          42.0035328
+        ]
+      },
+      "id": "node/4776265422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5130474890",
+        "amenity": "hospital",
+        "name": "Здравствен дом „Железничар“",
+        "name:en": "Železničar Health Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4271939,
+          41.9933702
+        ]
+      },
+      "id": "node/5130474890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5600176621",
+        "amenity": "hospital",
+        "name:en": "bioenergy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4333393,
+          42.0319727
+        ]
+      },
+      "id": "node/5600176621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5646430122",
+        "addr:street": "Ќемал Ататурк",
+        "amenity": "hospital",
+        "name": "Visar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4434522,
+          42.0130459
+        ]
+      },
+      "id": "node/5646430122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7027084885",
+        "amenity": "hospital",
+        "name": "Стоматолошка Ординација",
+        "name:en": "Dentist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4235554,
+          41.9919437
+        ]
+      },
+      "id": "node/7027084885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8393939617",
+        "amenity": "hospital",
+        "internet_access": "wlan",
+        "name": "lindi 2022"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5332026,
+          41.9347627
+        ]
+      },
+      "id": "node/8393939617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8434537936",
+        "addr:city": "Драчево",
+        "addr:housenumber": "28",
+        "addr:postcode": "1000",
+        "addr:street": "Димитар Гуштанов",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "PZU \"Deona MM\"",
+        "operator": "Dr. Mira Miloseska",
+        "operator:type": "private",
+        "phone": "+389 2 2796-952"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5158516,
+          41.9398219
+        ]
+      },
+      "id": "node/8434537936"
+    }
+  ]
+}
