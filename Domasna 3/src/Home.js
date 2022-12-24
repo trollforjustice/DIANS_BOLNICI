@@ -1,4 +1,4 @@
-const Home = () => {
+const Home = ({lng,changeLanguage}) => {
   return (
     <div className="home">
       <div className="main">

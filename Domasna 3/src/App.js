@@ -4,23 +4,28 @@ import Sidebar from "./Sidebar";
 import Basicmap from "./Basicmap";
 import Home from "./Home";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
+import { useState } from "react";
 function App() {
+  const [lng, setLng] = useState(false);
+  const changeLanguage = () => {
+    setLng(!lng);
+  };
+
   return (
     <Router>
       <div className="App">
-        <Navbar></Navbar>
+        <Navbar lng={lng} changeLanguage={changeLanguage}></Navbar>
         <Switch>
           <Route exact path="/">
-            <Home></Home>
+            <Home lng={lng} changeLanguage={changeLanguage}></Home>
           </Route>
           <Route path="/map">
             <div className="main">
               <div className="column">
-                <Sidebar></Sidebar>
+                <Sidebar lng={lng} changeLanguage={changeLanguage}></Sidebar>
               </div>
               <div className="column">
-                <Basicmap></Basicmap>
+                <Basicmap lng={lng} changeLanguage={changeLanguage}></Basicmap>
               </div>
             </div>
           </Route>

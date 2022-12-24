@@ -1,6 +1,8 @@
-const Sidebar = () => {
+const Sidebar = ({lng,changeLanguage}) => {
     return (<div className="sidebar">
-        <h1>Мапа на најблиските болници</h1>
+        {lng && <h1>Мапа на најблиските болници</h1>}
+        {!lng && <h1>Map that shows closes hospitals near you</h1>}
+
     </div> );
 }
  
