@@ -30,18 +30,9 @@ const Basicmap = ({lng,changeLanguage}) => {
 
   var coordinates = [location.coordinates.lat, location.coordinates.lng];
 
-  const showMyLocation = () => {
-    if (location.loaded && !location.error) {
-      mapRef.current.leafletElement.flyTo(
-        [location.coordinates.lat, location.coordinates.lng, location],
-        ZOOM,
-        { animate: true }
-      );
-    } else {
-      alert(location.error.message);
-    }
-  };
-
+ 
+ 
+var map;
   const createMap = () =>{
     var container = L.DomUtil.get("map");
     console.log(container);
@@ -59,7 +50,7 @@ const Basicmap = ({lng,changeLanguage}) => {
     var distances=[]
     if (location.loaded) {
      // let map = mapRef.current;
-      var map = L.map("map").setView(coordinates, 13);
+       map = L.map("map").setView(coordinates, 13);
       L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
         maxZoom: 19,
         attribution:
@@ -84,10 +75,10 @@ const Basicmap = ({lng,changeLanguage}) => {
           .openPopup();
           markers.push(locationMarker)
       }
-     // console.log(locationMarker);
+   
 
       var locationPOI = new POI(locationMarker);
-    //  console.log(locationPOI);
+  
       
 
       //hospitals markers
@@ -120,6 +111,7 @@ const Basicmap = ({lng,changeLanguage}) => {
           <p>Address: ${objekt.properties["addr:street"]}</p>
           <p>Distance: ${distance} km</p>
           `));
+          POIobjects.push({name:objekt.properties.name})
           names.push(objekt.properties.name)
        streets.push(objekt.properties["addr:street"])
        distances.push(distance)
@@ -133,6 +125,7 @@ const Basicmap = ({lng,changeLanguage}) => {
 
     }
   }
+ 
   useEffect(() => {
     //without this map dies lol, no idea what it does
     //if it works, don't touch it
@@ -167,7 +160,19 @@ const Basicmap = ({lng,changeLanguage}) => {
    }
  }, [lng]);
 
-  function getDistance(origin, destination) {
+ const showMyLocation2 = () => {
+  map.flyTo(coordinates, 15, {easeLinearity: 0.15})
+};
+
+ const getNearest = (hospitals, distances) =>{
+  var min=0;
+  for(let i=0;i<distances.length;i++){
+    min=Math.min(...distances)
+    
+  }
+ }
+
+function getDistance(origin, destination) {
     // return distance in meters
     var lon1 = toRadian(origin[Object.keys(origin)[1]]),
         lat1 = toRadian(origin[Object.keys(origin)[0]]),
@@ -252,7 +257,9 @@ function toRadian(degree) {
     // </div>
 
     <div className="Basicmap">
-      <button>locateme</button>
+      {lng && <button class="button-5" role="button" onClick={()=>showMyLocation2()}>Покажи локација</button>}
+      {!lng && <button class="button-5" role="button" onClick={()=>showMyLocation2()}>Locate Me</button>}
+
       <div id="map"></div>
     </div>
   );

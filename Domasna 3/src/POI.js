@@ -4,6 +4,8 @@ export default class POI {
       name: props.name,
       coordinates: [props.coordinates],
       street: props["addr:street"],
+      dist:props.dist,
+    
     };
   }
   getName() {
