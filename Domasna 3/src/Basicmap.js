@@ -3,7 +3,7 @@ import { MapContainer, TileLayer, Marker, Popup, Tooltip } from "react-leaflet";
 import L, { Draggable } from "leaflet";
 import "./App.css";
 import { Icon } from "leaflet";
-import hospitals from "./hospitals.json";
+import hospitals from "./data.json";
 import useGeoLocation from "./useGeoLocation";
 import { useRef } from "react";
 import POI from './POI';
@@ -95,7 +95,7 @@ var map;
         var distance = getDistance(locationMarker.getLatLng(), [lat,lng])
        
 
-      if(!lng){
+      if(lng){
         markers.push(L.marker([lat, lng],{icon:hospitalIcon}).addTo(map)
         .bindPopup(`<h3>${objekt.properties.name}</h3>
           <p>Адреса: ${objekt.properties["addr:street"]}</p>
